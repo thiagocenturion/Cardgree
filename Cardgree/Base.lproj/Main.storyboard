@@ -15,7 +15,7 @@
         <!--View Dashboard-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewDashboard" customModule="Cardegee" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewDashboard" customModule="Cardgree" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -298,7 +298,7 @@
         <!--Page View Cards-->
         <scene sceneID="e2B-v3-Pig">
             <objects>
-                <pageViewController storyboardIdentifier="PageViewCards" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="iyX-QV-pgj" customClass="PageViewCards" customModule="Cardegee" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="PageViewCards" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="iyX-QV-pgj" customClass="PageViewCards" customModule="Cardgree" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bp7-38-rsI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1956" y="119"/>
@@ -306,13 +306,13 @@
         <!--View Card-->
         <scene sceneID="nQc-yh-C8C">
             <objects>
-                <viewController storyboardIdentifier="ViewCard" id="vaR-OU-2RY" customClass="ViewCard" customModule="Cardegee" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewCard" id="vaR-OU-2RY" customClass="ViewCard" customModule="Cardgree" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MAN-QJ-rt8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="266.30000000000001"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ltn-uP-AtW">
-                                <rect key="frame" x="20.666666666666657" y="258.33333333333331" width="372.66666666666674" height="239.33333333333331"/>
+                                <rect key="frame" x="20.666666666666657" y="13.333333333333329" width="372.66666666666674" height="239.33333333333337"/>
                                 <subviews>
                                     <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ytB-8T-YWB">
                                         <rect key="frame" x="0.0" y="0.0" width="372.66666666666669" height="239.33333333333334"/>
@@ -345,10 +345,10 @@
                                         </state>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2hY-O3-ekJ">
-                                        <rect key="frame" x="18" y="110.33333333333337" width="336.66666666666669" height="18.666666666666657"/>
+                                        <rect key="frame" x="18" y="110.33333333333334" width="336.66666666666669" height="18.666666666666657"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="IdA-AC-Zat">
-                                                <rect key="frame" x="0.0" y="0.66666666666662877" width="84.333333333333329" height="17.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.66666666666665719" width="84.333333333333329" height="17.333333333333332"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -391,7 +391,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THIAGO R CENTURION" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vxC-tv-lmH">
-                                                        <rect key="frame" x="0.0" y="18.666666666666686" width="138.33333333333334" height="14.666666666666664"/>
+                                                        <rect key="frame" x="0.0" y="18.666666666666657" width="138.33333333333334" height="14.666666666666664"/>
                                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -408,7 +408,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7/24" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="geB-ht-rC2">
-                                                        <rect key="frame" x="139.66666666666669" y="18.666666666666686" width="28.666666666666657" height="14.666666666666664"/>
+                                                        <rect key="frame" x="139.66666666666669" y="18.666666666666657" width="28.666666666666657" height="14.666666666666664"/>
                                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
                                                         <color key="textColor" red="1" green="0.41611956300000003" blue="0.46304988860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -452,6 +452,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="snh-l4-0cN"/>
                     </view>
+                    <size key="freeformSize" width="414" height="266.30000000000001"/>
+                    <connections>
+                        <outlet property="blurCard" destination="ytB-8T-YWB" id="Je3-Md-Hwt"/>
+                        <outlet property="viewCard" destination="ltn-uP-AtW" id="IeZ-Pd-FxP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OtQ-7W-Ahg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

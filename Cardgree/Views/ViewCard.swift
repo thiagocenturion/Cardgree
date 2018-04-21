@@ -11,11 +11,19 @@ import UIKit
 class ViewCard: UIViewController {
     
     var index = 0 // Index para o page view controller
-
+    
+    @IBOutlet weak var viewCard: UIView!
+    @IBOutlet weak var blurCard: UIVisualEffectView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        viewCard.layer.shadowColor = UIColor.black.cgColor
+        viewCard.layer.shadowOpacity = 0.2
+        viewCard.layer.shadowRadius = 7.0
+        viewCard.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        viewCard.layer.masksToBounds = false
     }
 
     override func didReceiveMemoryWarning() {
