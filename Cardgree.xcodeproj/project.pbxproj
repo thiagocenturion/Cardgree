@@ -18,7 +18,6 @@
 		67C984C1207889D50062B31E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C984BF207889D50062B31E /* LaunchScreen.storyboard */; };
 		67C984CC207889D50062B31E /* CardgreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C984CB207889D50062B31E /* CardgreeTests.swift */; };
 		67C984D7207889D50062B31E /* CardgreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C984D6207889D50062B31E /* CardgreeUITests.swift */; };
-		67E154262079EDE8003867F9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E154252079EDE8003867F9 /* Usuario.swift */; };
 		67E154282079EDF6003867F9 /* Cartao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E154272079EDF6003867F9 /* Cartao.swift */; };
 		67E1542A2079EE1A003867F9 /* Transacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E154292079EE1A003867F9 /* Transacao.swift */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,6 @@
 		67C984D2207889D50062B31E /* CardgreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardgreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C984D6207889D50062B31E /* CardgreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardgreeUITests.swift; sourceTree = "<group>"; };
 		67C984D8207889D50062B31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67E154252079EDE8003867F9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		67E154272079EDF6003867F9 /* Cartao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cartao.swift; sourceTree = "<group>"; };
 		67E154292079EE1A003867F9 /* Transacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transacao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +99,6 @@
 		678636162079D4A400069D29 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				67E154252079EDE8003867F9 /* Usuario.swift */,
 				67E154272079EDF6003867F9 /* Cartao.swift */,
 				67E154292079EE1A003867F9 /* Transacao.swift */,
 			);
@@ -305,7 +302,6 @@
 				67C984BC207889D40062B31E /* Cardgree.xcdatamodeld in Sources */,
 				67E154282079EDF6003867F9 /* Cartao.swift in Sources */,
 				67C984B6207889D40062B31E /* ViewDashboard.swift in Sources */,
-				67E154262079EDE8003867F9 /* Usuario.swift in Sources */,
 				67C984B4207889D30062B31E /* AppDelegate.swift in Sources */,
 				678636192079D4D300069D29 /* PageViewCards.swift in Sources */,
 				6786361B2079DB5A00069D29 /* ViewCard.swift in Sources */,
